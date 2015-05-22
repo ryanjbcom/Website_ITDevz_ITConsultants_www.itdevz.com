@@ -1,367 +1,37 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I.T. Devz, WE ARE CODE NINJAS! ELITE & MODERN (WE ARE I.T. CONSULTANTS)!">
+    <meta name="author" content="itdevz.com, hostingzeus.com, ryanjb.com">
+    <link rel="icon" href="images/favicon.png" type="image/png"/> 
 
-    <title>Shalom G. Construction, Commercial & Residential Development</title>
+    <title>I.T. Devz, WE ARE CODE NINJAS! ELITE & MODERN (WE ARE I.T. CONSULTANTS)!</title>
+
+
+
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- Share Button Styles -->
-    <style>
-        .share-icon {
-            display: inline-block;
-            float: left;
-            margin: 4px;
-            width: 32px;
-            height: 32px;
-            cursor: pointer;
-            vertical-align: middle;
-            background-image: url(images/share-icons.png);
-        }
-
-        .share-facebook {
-            background-position: 0px 0px;
-        }
-
-            .share-facebook:hover {
-                background-position: 0px -40px;
-            }
-
-        .share-twitter {
-            background-position: -40px 0px;
-        }
-
-            .share-twitter:hover {
-                background-position: -40px -40px;
-            }
-
-        .share-pinterest {
-            background-position: -80px 0px;
-        }
-
-            .share-pinterest:hover {
-                background-position: -80px -40px;
-            }
-
-        .share-linkedin {
-            background-position: -240px 0px;
-        }
-
-            .share-linkedin:hover {
-                background-position: -240px -40px;
-            }
+    <link href="http://www.itdevz.com/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://www.itdevz.com/css/navbar.css" rel="stylesheet">
+    <link href="http://www.itdevz.com/navbar-fixed-top.css" rel="stylesheet" >
 
 
-        .share-googleplus {
-            background-position: -120px 0px;
-        }
+    <!-- Core JS -->
+    <script type="text/javascript" src="http://www.itdevz.com/clients/adamsinewitz/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="http://www.itdevz.com/clients/adamsinewitz/js/jssor.js"></script>
+    <script type="text/javascript" src="http://www.itdevz.com/clients/adamsinewitz/js/jssor.slider.js"></script>
+    <script type="text/javascript" src="http://www.itdevz.com/clients/adamsinewitz/js/bootstrap.js"></script>
 
-            .share-googleplus:hover {
-                background-position: -120px -40px;
-            }
-
-
-        .share-stumbleupon {
-            background-position: -360px 0px;
-        }
-
-            .share-stumbleupon:hover {
-                background-position: -360px -40px;
-            }
-
-        .share-email {
-            background-position: -320px 0px;
-        }
-
-            .share-email:hover {
-                background-position: -320px -40px;
-            }
-
-        .ad_title_share {
-            position: relative;
-            top: 5px;
-            width: 160px;
-            height: 80px;
-            margin-left: 22px;
-        }
-
-        .share-icons-sidebar {
-            position: fixed;
-            display: block;
-            top: 110px;
-            left: 0px;
-            width: 40px;
-            height: 240px;
-        }
-
-        @media only screen and (max-width: 1080px) {
-            .ad_title_share {
-                display: none;
-            }
-
-            .share-icons-sidebar {
-                display: none;
-            }
-        }
-    </style>
-
-    <!-- Ad styles -->
-    <style>
-        .ad_top, .ad_bill {
-            position: relative;
-            margin: 0 auto;
-            top: 0px;
-            left: 0px;
-            padding: 0px;
-            width: 320px;
-            height: 50px;
-            overflow: hidden;
-        }
-
-        .ad_title_banner {
-            width: 320px;
-            height: 50px;
-            position: relative;
-            top: 0px;
-            padding: 0px;
-            overflow: hidden;
-            margin: 0 auto;
-        }
-
-        .ad_space {
-            height: 0px;
-        }
-
-        .ad_title {
-            position: relative;
-            margin: 0 auto;
-            padding: 0px;
-            width: 100%;
-            max-width: 980px;
-            height: 50px;
-            background-color: #F0F0F0;
-        }
-
-        .ad_title_caption {
-            display: none;
-        }
-
-        .ad_rect {
-            position: absolute;
-            padding: 10px;
-            top: -10px;
-            left: -10px;
-            width: 300px;
-            height: 250px;
-            /*background-color: #FFF;*/
-        }
-
-            .ad_rect:hover {
-                /*background-color: #edb802;*/
-                /*background-color: transparent;*/
-            }
-
-        .ad_hint {
-            position: absolute;
-            left: -10px;
-            top: -10px;
-            width: 22px;
-            height: 15px;
-            color: #fff;
-            background-color: #edb802;
-            font-size: 13px;
-            text-align: center;
-            border-radius: 2px;
-            z-index: 1;
-        }
-
-        @media only screen and (min-width: 727px) {
-            .ad_top, .ad_title_banner {
-                width: 728px;
-                max-width: 100%;
-                height: 90px;
-            }
-
-            .ad_bill {
-                width: 970px;
-                max-width: 100%;
-                height: 250px;
-            }
-
-            .ad_space {
-                height: 20px;
-            }
-
-            .ad_title {
-                height: 90px;
-            }
-        }
-
-        @media only screen and (min-width: 980px) {
-            .ad_title_banner {
-                position: absolute;
-                right: 20px;
-            }
-
-            .ad_title_caption {
-                display: block;
-            }
-        }
-
-
-        .sidebar_1 {
-            position: relative;
-            display: block;
-            float: left;
-            top: 0px;
-            margin: 15px 10px 10px -10px;
-            padding: 0px;
-            width: 320px;
-            overflow: hidden;
-        }
-
-        @media only screen and (max-width: 979px) {
-            .sidebar_1 {
-                width: 640px;
-                margin: 10px auto;
-                float: none;
-            }
-        }
-
-        @media only screen and (max-width: 639px) {
-            .sidebar_1 {
-                width: 320px;
-                float: none;
-            }
-        }
-    </style>
-
-    <!-- Thumbnail Style Begin -->
-    <style>
-        .thumb {
-            position: relative;
-            top: 0px;
-            left: 0px;
-            float: left;
-            display: inline;
-            margin: 10px;
-            width: 300px;
-            height: 250px;
-            -webkit-box-shadow: 1px 1px 5px 0px rgba(109, 109, 109, 0.3);
-            -moz-box-shadow: 1px 1px 5px 0px rgba(109, 109, 109, 0.3);
-            box-shadow: 1px 1px 5px 0px rgba(109, 109, 109, 0.3);
-        }
-
-        .thumbb, a.thumbb {
-            position: absolute;
-            left: -1px;
-            top: -1px;
-            width: 302px;
-            height: 252px;
-            color: #000;
-            background-color: #CCC;
-        }
-
-            a.thumbb:visited {
-                color: #ff8400;
-            }
-
-            .thumbb:hover, a.thumbb:hover {
-                color: #fff;
-                background-color: #ff8400;
-            }
-
-        .thumbi {
-            position: absolute;
-            left: 1px;
-            top: 36px;
-            width: 300px;
-            height: 215px;
-            line-height: 211px;
-            text-align: center;
-            background-color: #F6F6F6;
-            background-position: center center;
-            background-repeat: no-repeat;
-        }
-
-            .thumbi img {
-                vertical-align: middle;
-                border: none;
-            }
-
-        .thumbc {
-            position: absolute;
-            left: 1px;
-            top: 1px;
-            width: 300px;
-            height: 35px;
-            background-color: #EAEAEA;
-        }
-
-        a.thumbb:hover .thumbc {
-            background-color: #ff8400;
-        }
-
-        .thumbc {
-            font-size: 18px;
-            line-height: 35px;
-            text-align: center;
-        }
-
-        .thumb_wrapper {
-            position: relative;
-            margin: 10px auto;
-            padding: 0px;
-            width: 100%;
-            max-width: 960px;
-            /*height: 100%;*/
-            overflow: hidden;
-        }
-
-        .reserve_sidebar_space {
-            float: none;
-        }
-
-        @media only screen and (min-width: 960px) {
-            .reserve_sidebar_space {
-                max-width: 640px;
-                float: left;
-                margin: 10px;
-            }
-        }
-
-        @media only screen and (max-width: 959px) {
-            .thumb_wrapper {
-                max-width: 640px;
-            }
-        }
-
-        @media only screen and (max-width: 639px) {
-            .thumb_wrapper {
-                max-width: 320px;
-            }
-        }
-    </style>
-    <!-- Thumbnail Style End -->
-
-    
 </head>
-<body>
 
 
+
+<body style="padding: 0; margin: 0; font-family:Arial, Verdana;background-color:#fff;">
 
     <!-- NAVBAR
     ================================================== -->
@@ -377,7 +47,6 @@
         .navbar-wrapper > .container {
             padding: 0;
         }
-
         @media all and (max-width: 768px ){
             .navbar-wrapper {
                 position: relative;
@@ -385,254 +54,417 @@
             }
         }
     </style>
-    <div class="navbar-wrapper">
-        <div class="container">
-
-            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="margin-bottom: 0px;">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="http://www.shalomgconstruction.com/index.htm">Shalom G. Construction</a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="index.html">Grind</a></li>
-                            <li><a href="index.html">Services</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">    
-                            <li><a href="index.html">Find Us</a></li>
-                            <li><a href="index.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
+    
+    
+    <!-- Fixed navbar code -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.itdevz.com"><img src="http://www.itdevz.com/images/smlogo.png"></a>
         </div>
-    </div>
-
-
-</br><br/></br><br/>
-    <div style="min-height: 50px;">
-        <!-- Jssor Slider Begin -->
-        <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
-        <!-- ================================================== -->
-        <div id="slider1_container" style="display: none; position: relative; margin: 0 auto;
-        top: 0px; left: 0px; width: 1300px; height: 620px; overflow: hidden;">
-            <!-- Loading Screen -->
-            <div u="loading" style="position: absolute; top: 0px; left: 0px;">
-                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
-                top: 0px; left: 0px; width: 100%; height: 100%;">
-                </div>
-                <div style="position: absolute; display: block; background: url(images/loading.gif) no-repeat center center;
-                top: 0px; left: 0px; width: 100%; height: 100%;">
-                </div>
-            </div>
-            <!-- Slides Container -->
-            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 620px; overflow: hidden;">
-                <div>
-                    <img u="image" src2="images/red.jpg" />
-                </div>
-                <div>
-                    <img u="image" src2="images/purple.jpg" />
-                </div>
-                <div>
-                    <img u="image" src2="images/blue.jpg" />
-                </div>
-
-                <!-- Example to add fixed static share buttons in slider BEGIN -->
-                <!-- Remove it if no need -->
-                <div u="any" style="position: absolute; display: block; bottom: 25px; right: 25px; width: 280px; height: 40px;">
-
-
-		<a class="share-icon share-facebook" target="_blank" href="" title="Share on Facebook"></a>
-		<a class="share-icon share-twitter" target="_blank" href="" title="Share on Twitter"></a>
-		<a class="share-icon share-googleplus" target="_blank" href="" title="Share on Google Plus"></a>
-		<a class="share-icon share-linkedin" target="_blank" href="" title="Share on LinkedIn"></a>
-		<a class="share-icon share-stumbleupon" target="_blank" href="" title="Share on StumbleUpon"></a>
-		<a class="share-icon share-pinterest" target="_blank" href="" title="Share on Pinterst"></a>
-                <a class="share-icon share-email" target="_blank" href="" title="Share by Email"></a>
-                </div>
-                <!-- Example to add fixed static share buttons in slider END -->
-            </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Products</a></li>
+            <li><a href="#about">Showcase</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contact.htm">Contact</a></li>
             
-            <!--#region Bullet Navigator Skin Begin -->
-            <!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html -->
-            <style>
-                /* jssor slider bullet navigator skin 21 css */
-                /*
-                .jssorb21 div           (normal)
-                .jssorb21 div:hover     (normal mouseover)
-                .jssorb21 .av           (active)
-                .jssorb21 .av:hover     (active mouseover)
-                .jssorb21 .dn           (mousedown)
-                */
-                .jssorb21 {
-                    position: absolute;
-                }
-                .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
-                    position: absolute;
-                    /* size of bullet elment */
-                    width: 19px;
-                    height: 19px;
-                    text-align: center;
-                    line-height: 19px;
-                    color: white;
-                    font-size: 12px;
-                    background: url(images/b21.png) no-repeat;
-                    overflow: hidden;
-                    cursor: pointer;
-                }
-                .jssorb21 div { background-position: -5px -5px; }
-                .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
-                .jssorb21 .av { background-position: -65px -5px; }
-                .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
-            </style>
-            <!-- bullet navigator container -->
-            <div u="navigator" class="jssorb21" style="bottom: 16px; right: 6px;">
-                <!-- bullet navigator item prototype -->
-                <div u="prototype"></div>
-            </div>
-            <!--#endregion Bullet Navigator Skin End -->
-            
-            <!--#region Arrow Navigator Skin Begin -->
-            <!-- Help: http://www.jssor.com/development/slider-with-arrow-navigator-jquery.html -->
-            <style>
-                /* jssor slider arrow navigator skin 21 css */
-                /*
-                .jssora21l                  (normal)
-                .jssora21r                  (normal)
-                .jssora21l:hover            (normal mouseover)
-                .jssora21r:hover            (normal mouseover)
-                .jssora21l.jssora21ldn      (mousedown)
-                .jssora21r.jssora21rdn      (mousedown)
-                */
-                .jssora21l, .jssora21r {
-                    display: block;
-                    position: absolute;
-                    /* size of arrow element */
-                    width: 55px;
-                    height: 55px;
-                    cursor: pointer;
-                    background: url(images/a21.png) center center no-repeat;
-                    overflow: hidden;
-                }
-                .jssora21l { background-position: -3px -33px; }
-                .jssora21r { background-position: -63px -33px; }
-                .jssora21l:hover { background-position: -123px -33px; }
-                .jssora21r:hover { background-position: -183px -33px; }
-                .jssora21l.jssora21ldn { background-position: -243px -33px; }
-                .jssora21r.jssora21rdn { background-position: -303px -33px; }
-            </style>
-            <!-- Arrow Left -->
-            <span u="arrowleft" class="jssora21l" style="top: 123px; left: 8px;">
-            </span>
-            <!-- Arrow Right -->
-            <span u="arrowright" class="jssora21r" style="top: 123px; right: 8px;">
-            </span>
-            <!--#endregion Arrow Navigator Skin End -->
-            <a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>
-        </div>
-        <!-- Jssor Slider End -->
-    </div>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.linkedin.com/company/3024621" target="_blank"><img src="http://www.itdevz.com/images/linkedin.png"></a></li>
+            <li><a href="http://www.facebook.com/it.ryanjbcom" target="_blank"><img src="http://www.itdevz.com/images/facebook.png"></a></li>
+            <li><a href="https://twitter.com/ITConsultantsIT" target="_blank"><img src="http://www.itdevz.com/images/twitter.png"> <span class="sr-only">(current)</span></a></li>
+          </ul>
+          
+          <!-- <li class="active"> use this to gray bar selection -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+<!-- end the nav bar -->
 
-    <div class="container marketing">
 
-        <hr class="featurette-divider">
 
-        
-        <!-- FOOTER -->
-        <footer>
-            <p class="pull-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2015 &middot; <a href="#">Privacy</a> &middot; </p>
-        </footer>
 
-    </div><!-- /.container -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.9.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-    <!-- jssor slider scripts-->
-    <!-- use jssor.js + jssor.slider.js instead for development -->
-    <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
-    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+
+<!-- space the nav bar -->
+
+<br /><br /><br />
+
     <script>
+
         jQuery(document).ready(function ($) {
 
-            var options = {
-                $FillMode: 2,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
-                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-                $AutoPlayInterval: 6000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
-                $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+            var _SlideshowTransitions = [
+            //Fade in L
+                {$Duration: 1200, x: 0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade out R
+                , { $Duration: 1200, x: -0.3, $SlideOut: true, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade in R
+                , { $Duration: 1200, x: -0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade out L
+                , { $Duration: 1200, x: 0.3, $SlideOut: true, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
 
+            //Fade in T
+                , { $Duration: 1200, y: 0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out B
+                , { $Duration: 1200, y: -0.3, $SlideOut: true, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade in B
+                , { $Duration: 1200, y: -0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade out T
+                , { $Duration: 1200, y: 0.3, $SlideOut: true, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+
+            //Fade in LR
+                , { $Duration: 1200, x: 0.3, $Cols: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Column: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out LR
+                , { $Duration: 1200, x: 0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade in TB
+                , { $Duration: 1200, y: 0.3, $Rows: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Row: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade out TB
+                , { $Duration: 1200, y: 0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+
+            //Fade in LR Chess
+                , { $Duration: 1200, y: 0.3, $Cols: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Column: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out LR Chess
+                , { $Duration: 1200, y: -0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade in TB Chess
+                , { $Duration: 1200, x: 0.3, $Rows: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Row: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out TB Chess
+                , { $Duration: 1200, x: -0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+
+            //Fade in Corners
+                , { $Duration: 1200, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out Corners
+                , { $Duration: 1200, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $SlideOut: true, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+
+            //Fade Clip in H
+                , { $Duration: 1200, $Delay: 20, $Clip: 3, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade Clip out H
+                , { $Duration: 1200, $Delay: 20, $Clip: 3, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseOutCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade Clip in V
+                , { $Duration: 1200, $Delay: 20, $Clip: 12, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade Clip out V
+                , { $Duration: 1200, $Delay: 20, $Clip: 12, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseOutCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+                ];
+
+            var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlayInterval: 1500,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                                //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
                 $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
-                $SlideEasing: $JssorEasing$.$EaseOutQuint,          //[Optional] Specifies easing for right to left animation, default value is $JssorEasing$.$EaseOutQuad
-                $SlideDuration: 800,                               //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
-                $MinDragOffsetToSlide: 20,                          //[Optional] Minimum drag offset to trigger slide , default value is 20
-                //$SlideWidth: 600,                                 //[Optional] Width of every slide in pixels, default value is width of 'slides' container
-                //$SlideHeight: 300,                                //[Optional] Height of every slide in pixels, default value is height of 'slides' container
-                $SlideSpacing: 0, 					                //[Optional] Space between each slide in pixels, default value is 0
-                $DisplayPieces: 1,                                  //[Optional] Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
-                $ParkingPosition: 0,                                //[Optional] The offset position to park slide (this options applys only when slideshow disabled), default value is 0.
-                $UISearchMode: 1,                                   //[Optional] The way (0 parellel, 1 recursive, default value is 1) to search UI components (slides container, loading screen, navigator container, arrow navigator container, thumbnail navigator container etc).
-                $PlayOrientation: 1,                                //[Optional] Orientation to play slide (for auto play, navigation), 1 horizental, 2 vertical, 5 horizental reverse, 6 vertical reverse, default value is 1
-                $DragOrientation: 1,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
-              
-                $BulletNavigatorOptions: {                          //[Optional] Options to specify and enable navigator or not
-                    $Class: $JssorBulletNavigator$,                 //[Required] Class to create navigator instance
-                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 1,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                    $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
-                    $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
-                    $SpacingX: 8,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
-                    $SpacingY: 8,                                   //[Optional] Vertical space between each item in pixel, default value is 0
-                    $Orientation: 1,                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
-                    $Scale: false                                   //Scales bullets navigator or not while slider scale
+                $SlideDuration: 800,                                //Specifies default duration (swipe) for slide in milliseconds
+
+                $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
+                    $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
+                    $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
+                    $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
+                    $ShowLink: true                                    //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
                 },
 
-                $ArrowNavigatorOptions: {                           //[Optional] Options to specify and enable arrow navigator or not
-                    $Class: $JssorArrowNavigator$,                  //[Requried] Class to create arrow navigator instance
-                    $ChanceToShow: 1,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
-                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
-                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                },
+
+                $ThumbnailNavigatorOptions: {                       //[Optional] Options to specify and enable thumbnail navigator or not
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                    $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $SpacingX: 8,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                    $DisplayPieces: 10,                             //[Optional] Number of pieces to display, default value is 1
+                    $ParkingPosition: 360                          //[Optional] The offset position to park thumbnail
                 }
             };
 
-            //Make the element 'slider1_container' visible before initialize jssor slider.
-            $("#slider1_container").css("display", "block");
             var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-
-            //responsive code begin
-            //you can remove responsive code if you don't want the slider scales while window resizes
-            function ScaleSlider() {
-                var bodyWidth = document.body.clientWidth;
-                if (bodyWidth)
-                    jssor_slider1.$ScaleWidth(Math.min(bodyWidth, 1920));
-                else
-                    window.setTimeout(ScaleSlider, 30);
+            
+	function ScaleSlider() {
+            var parentWidth = $('#slider1_container').parent().width();
+            if (parentWidth) {
+                jssor_slider1.$ScaleWidth(parentWidth);
             }
+            else
+                window.setTimeout(ScaleSlider, 30);
+        }
             ScaleSlider();
 
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", ScaleSlider);
-            //responsive code end
-        });
+            
+        }); <!-- responsive code begin -->
     </script>
+
+
+
+
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px;
+        height: 355px; background: #191919; overflow: hidden;">
+
+        <!-- Loading Screen -->
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+            <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 356px; overflow: hidden;">
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/02.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/03.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/04.jpg" />
+                >
+            </div>
+            <div>
+                <img u="image" src="images/slider/05.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/06.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/07.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/08.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/09.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/10.jpg" />
+                
+            </div>
+            
+            <div>
+                <img u="image" src="images/slider/11.jpg" />
+               
+            </div>
+            <div>
+                <img u="image" src="images/slider/12.jpg" />
+                
+            </div>
+        </div>
+        
+        <!--#region Arrow Navigator Skin Begin -->
+        <style>
+            /* jssor slider arrow navigator skin 05 css */
+            /*
+            .jssora05l                  (normal)
+            .jssora05r                  (normal)
+            .jssora05l:hover            (normal mouseover)
+            .jssora05r:hover            (normal mouseover)
+            .jssora05l.jssora05ldn      (mousedown)
+            .jssora05r.jssora05rdn      (mousedown)
+            */
+            .jssora05l, .jssora05r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                background: url(../img/a17.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora05l { background-position: -10px -40px; }
+            .jssora05r { background-position: -70px -40px; }
+            .jssora05l:hover { background-position: -130px -40px; }
+            .jssora05r:hover { background-position: -190px -40px; }
+            .jssora05l.jssora05ldn { background-position: -250px -40px; }
+            .jssora05r.jssora05rdn { background-position: -310px -40px; }
+        </style>
+
+
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora05l" style="top: 158px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora05r" style="top: 158px; right: 8px">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        
+        <a style="display: none" href="http://www.jssor.com">js slider</a>
+    </div>
+    <!-- Jssor Slider End -->
+
+
+
+
+
+
+
+ <!-- Page Content -->
+
+	<a  name="services"></a>
+        <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Label 1<br>1</h2>
+                    <p class="lead">blah blah blah</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/ipad.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">label 2<br>2</h2>
+                    <p class="lead">blah blah blah</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/dog.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">label 3<br>3</h2>
+                    <p class="lead">blah blah blah</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/phones.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Bootstrap:</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+
+
+
+
+
+
+<br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+
+
+
+
+
+
+
 </body>
 </html>
