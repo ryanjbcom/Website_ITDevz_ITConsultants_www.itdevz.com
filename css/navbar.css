@@ -5,4 +5,8 @@ body {
 
 .navbar {
   margin-bottom: 20px;
-}d
+}
+
+.nav-tabs li a {
+  font-size:18px;
+  }
