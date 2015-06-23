@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
 
 body,
 html {
@@ -146,6 +142,29 @@ h6 {
 .banner2 ul {
     margin-bottom: 0;
 }
+
+
+.banner3 {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(http://www.itdevz.com/images/banner3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner3 h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner3 ul {
+    margin-bottom: 0;
+}
+
+
+
+
+
 .banner-social-buttons {
     float: right;
     margin-top: 0;
