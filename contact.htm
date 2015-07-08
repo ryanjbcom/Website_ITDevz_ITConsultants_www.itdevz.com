@@ -1,48 +1,61 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
+<html lang="en">
 
-<html lang="en"><head>
-	#shadow-root
-  	<shadow></shadow>
-  
-  	<style type="text/css"></style>
-  
-  
-  <head>
+<head>
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I.T. Devz, WE ARE CODE NINJAS! ELITE & MODERN (WE ARE I.T. CONSULTANTS)!">
+    <meta name="author" content="itdevz.com, hostingzeus.com, ryanjb.com">
+    <link rel="icon" href="images/favicon.png" type="image/png"/> 
 
-    <title>I.T. Devz, Your Software Development Solution (WE ARE I.T. CONSULTANTS)!</title>
-    
-    <!-- robots allow
-    <meta name="robots" content="none">
-    <meta name="googlebot" content="none"> -->
-    
+    <title>I.T. Devz, WE ARE CODE NINJAS! ELITE & MODERN!</title>
 
+
+ 
     <!-- Bootstrap core CSS -->
     <link href="http://www.itdevz.com/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="http://www.itdevz.com/css/navbar.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://www.itdevz.com/css/flexslider.css" type="text/css">
-
-
-    <!-- JS -->
-    <script src="http://itdevz.com/js/jquery.min.js"></script>
-    <script type="text/javascript" src="http://www.itdevz.com/js/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="http://www.itdevz.com/js/bootstrap.js"></script>
+    <link href="http://www.itdevz.com/css/landing.css" rel="stylesheet">
 
 
 
-  </head>
+    <!-- Core JS -->
+    <script type="text/javascript" src="http://www.itdevz.com/clients/adamsinewitz/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="http://www.itdevz.com/clients/adamsinewitz/js/jssor.js"></script>
+    <script type="text/javascript" src="http://www.itdevz.com/clients/adamsinewitz/js/jssor.slider.js"></script>
+    <script type="text/javascript" src="http://www.itdevz.com/clients/adamsinewitz/js/bootstrap.js"></script>
+
+</head>
 
 
-  <body>
 
+<body style="padding: 0; margin: 0; font-family:Arial, Verdana;background-color:#fff;">
+
+    <!-- NAVBAR
+    ================================================== -->
+    <style>
+        /* use navbar-wrapper to wrap navigation bar, the purpose is to overlay navigation bar above slider */
+        .navbar-wrapper {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+            height: 51px;
+        }
+        .navbar-wrapper > .container {
+            padding: 0;
+        }
+        @media all and (max-width: 768px ){
+            .navbar-wrapper {
+                position: relative;
+                top: 0px;
+            }
+        }
+    </style>
+    
+    
     <!-- Fixed navbar code -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -53,47 +66,414 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://www.itdevz.com" align="center">I.T. DEVZ</a>
+          <a class="navbar-brand" href="http://www.itdevz.com"><img src="http://www.itdevz.com/images/smlogo.png"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse nav-tabs">
           <ul class="nav navbar-nav">
-            <li><a href="#">Products</a></li>
-            <li><a href="#about">Showcase</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="active"><a href="contact.htm">Contact</a></li>
-            
+            <li><a href="#">Services</a></li>
+            <li><a href="#about">Our Work</a></li>
+          
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://www.linkedin.com/company/3024621" target="_blank"><img src="http://it.ryanjb.com/tindex/images/linkedin.png"></a></li>
-            <li><a href="http://www.facebook.com/it.ryanjbcom" target="_blank"><img src="http://it.ryanjb.com/tindex/images/facebook.png"></a></li>
-            <li><a href="https://twitter.com/ITConsultantsIT" target="_blank"><img src="http://it.ryanjb.com/tindex/images/twitter.png"> <span class="sr-only">(current)</span></a></li>
-            <!-- use .li class="active". to highlight the box -->
+            <li><a href="#about">(857) 400-9519</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+            <li><a href="http://www.linkedin.com/company/3024621" target="_blank"><img src="http://www.itdevz.com/images/linkedin.png"></a></li>
+            <li><a href="http://www.facebook.com/it.ryanjbcom" target="_blank"><img src="http://www.itdevz.com/images/facebook.png"></a></li>
+            <li><a href="https://twitter.com/ITConsultantsIT" target="_blank"><img src="http://www.itdevz.com/images/twitter.png"> <span class="sr-only">(current)</span></a></li>
           </ul>
+          
+          <!-- <li class="active"> use this to gray bar selection -->
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
+<!-- end the nav bar -->
 
-<!-- BEGIN BODY CODE -->
 
 
-    <div class="container">
-      <br /><br />
-      <table style="width:100%">
-      <tr>
-      <td align="left"><h1><a id="logo" href="http://www.itdevz.com" title="I.T. Consultants, Your Software Development Solution!" rel="home">
-      <img src="http://www.itdevz.com/images/logo.png" alt="I.T. Consultants, Your Software Development Solution!"></a></h1></td>
-      <td align="right"><h4 style="position:top: 50%; left: 50%; color: #9dcedf; font-weight: bold">helpme@itdevz.com<br> (877) 669 - 9006</h4></td>
-      </tr>
-      </table>
-      <table style="width:100%">
-      <tr>
-        <td align="center"><h2>WE ARE CODE NINJAS!<br />
-        Your Software Development Solution!</h2></td>
-      </tr>
-      </table>
+
+
+
+
+<!-- space the nav bar -->
+
+<br /><br /><br />
+
+    <script>
+
+        jQuery(document).ready(function ($) {
+
+            var _SlideshowTransitions = [
+            //Fade in L
+                {$Duration: 1200, x: 0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade out R
+                , { $Duration: 1200, x: -0.3, $SlideOut: true, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade in R
+                , { $Duration: 1200, x: -0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade out L
+                , { $Duration: 1200, x: 0.3, $SlideOut: true, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+
+            //Fade in T
+                , { $Duration: 1200, y: 0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out B
+                , { $Duration: 1200, y: -0.3, $SlideOut: true, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade in B
+                , { $Duration: 1200, y: -0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade out T
+                , { $Duration: 1200, y: 0.3, $SlideOut: true, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+
+            //Fade in LR
+                , { $Duration: 1200, x: 0.3, $Cols: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Column: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out LR
+                , { $Duration: 1200, x: 0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade in TB
+                , { $Duration: 1200, y: 0.3, $Rows: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Row: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade out TB
+                , { $Duration: 1200, y: 0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+
+            //Fade in LR Chess
+                , { $Duration: 1200, y: 0.3, $Cols: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Column: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out LR Chess
+                , { $Duration: 1200, y: -0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 12 }, $Easing: { $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade in TB Chess
+                , { $Duration: 1200, x: 0.3, $Rows: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Row: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out TB Chess
+                , { $Duration: 1200, x: -0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 3 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+
+            //Fade in Corners
+                , { $Duration: 1200, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+            //Fade out Corners
+                , { $Duration: 1200, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $SlideOut: true, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $JssorEasing$.$EaseInCubic, $Top: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2, $Outside: true }
+
+            //Fade Clip in H
+                , { $Duration: 1200, $Delay: 20, $Clip: 3, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade Clip out H
+                , { $Duration: 1200, $Delay: 20, $Clip: 3, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseOutCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade Clip in V
+                , { $Duration: 1200, $Delay: 20, $Clip: 12, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseInCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+            //Fade Clip out V
+                , { $Duration: 1200, $Delay: 20, $Clip: 12, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $JssorEasing$.$EaseOutCubic, $Opacity: $JssorEasing$.$EaseLinear }, $Opacity: 2 }
+                ];
+
+            var options = {
+                $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $AutoPlayInterval: 1500,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $PauseOnHover: 1,                                //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
+
+                $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false
+                $SlideDuration: 800,                                //Specifies default duration (swipe) for slide in milliseconds
+
+                $SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
+                    $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
+                    $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
+                    $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
+                    $ShowLink: true                                    //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
+                },
+
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 1                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                },
+
+                $ThumbnailNavigatorOptions: {                       //[Optional] Options to specify and enable thumbnail navigator or not
+                    $Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+
+                    $ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+                    $SpacingX: 8,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+                    $DisplayPieces: 10,                             //[Optional] Number of pieces to display, default value is 1
+                    $ParkingPosition: 360                          //[Optional] The offset position to park thumbnail
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+            
+	function ScaleSlider() {
+            var parentWidth = $('#slider1_container').parent().width();
+            if (parentWidth) {
+                jssor_slider1.$ScaleWidth(parentWidth);
+            }
+            else
+                window.setTimeout(ScaleSlider, 30);
+        }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            
+        }); <!-- responsive code begin -->
+    </script>
+
+
+
+
+    <!-- Jssor Slider Begin -->
+    <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+    <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 800px;
+        height: 355px; background: #191919; overflow: hidden;">
+
+        <!-- Loading Screen -->
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+            <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 800px; height: 356px; overflow: hidden;">
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                >
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+            
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+               
+            </div>
+            <div>
+                <img u="image" src="images/slider/01.jpg" />
+                
+            </div>
+        </div>
+        
+        <!--#region Arrow Navigator Skin Begin -->
+        <style>
+            /* jssor slider arrow navigator skin 05 css */
+            /*
+            .jssora05l                  (normal)
+            .jssora05r                  (normal)
+            .jssora05l:hover            (normal mouseover)
+            .jssora05r:hover            (normal mouseover)
+            .jssora05l.jssora05ldn      (mousedown)
+            .jssora05r.jssora05rdn      (mousedown)
+            */
+            .jssora05l, .jssora05r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+                background: url(../img/a17.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora05l { background-position: -10px -40px; }
+            .jssora05r { background-position: -70px -40px; }
+            .jssora05l:hover { background-position: -130px -40px; }
+            .jssora05r:hover { background-position: -190px -40px; }
+            .jssora05l.jssora05ldn { background-position: -250px -40px; }
+            .jssora05r.jssora05rdn { background-position: -310px -40px; }
+        </style>
+
+
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora05l" style="top: 158px; left: 8px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora05r" style="top: 158px; right: 8px">
+        </span>
+        <!--#endregion Arrow Navigator Skin End -->
+        
+        
+    </div>
+    <!-- Jssor Slider End -->
+
+
+
+
+
+
+
+ <!-- Page Content -->
+
+	<a  name="services"></a>
+        <div class="content-section-a">
+        
+        <hr class="featurette-divider">
+
+   <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">CODE NINJAS</h2>
+                    <p class="lead">ALWAYS</p>
+ 		    <p class="lead">Hand Coded, Latest Technology, Mobile,</p>
+		    <p class="lead">Compatible with ALL Browsers, Responsive,</p>
+                    <p class="lead">Viewable on ALL devices!</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="images/section1.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    
+    
+    <!-- /.content-section-b -->
+    <hr class="featurette-divider">  
       
-      <br /><br />
+        <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Bring Your Ideas To Life</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline">
+                        <li>
+                        <p class="lead">We work with you; tell us about the 
+                    look, feel & interaction of your site. We build your dream.
+                    You gain web real estate. Your site is
+                    discoverable & published through search engines.</p> 
+                    <p class="lead">Supporting all industries & Markets.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+
+<hr class="featurette-divider">
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Full Service Web Soltions</h2>
+ 			<p class="lead">Offering solutions for all company sizes.</p> 
+		        <p class="lead">Explode you Business online.</p>
+		        <p class="lead">Grow, Gain Leads & Revenue, Integrate Social Media!</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Experts In All Technology</h2>
+ 			<p class="lead">NEED HELP? We love helping our customers.</p> 
+		        <p class="lead">Call or Text us @ <b>(857) 400 - 9519</b></p>
+		        <p class="lead">E-Mail us <b>helpme@itdevz.com</b></p>
+		        <p class="lead">We are also on <b>LinkedIN, FaceBook & Twitter</b></p>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+
+
+
+
+ <!-- /.content-section-b -->
+    <hr class="featurette-divider">  
+          
+        <div class="banner3">
+
+        <div class="container">
+
+            <div class="row">
+                
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+
+    <!-- /.content-section-a -->
+
+	<a  name="contact"></a>
+    <div class="banner2">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2></h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                        <a href="http://www.linkedin.com/company/3024621" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>    
+                        </li>
+                        <li>
+                        <a href="http://www.facebook.com/it.ryanjbcom" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+			<a href="https://twitter.com/ITConsultantsIT" target="_blank"" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
     </div>
 
 
@@ -102,105 +482,37 @@
 
 
 
+<br /><br /><br /><br /><br /><br /><br /><br />
 
-	<!-- 1st container about email -->
-    	<div class="container">
-      	<div class="jumbotron">
-        
-	<!-- email contact form  -->
-
-       	<div class="table-responsive">
-	<table style="width:100%" align="center">
-	<tr>
-	<td align="center"> There are many great ways to find us.<br /> 
-	Use the Facebook/LinkedIN/Twitter accounts at the top or bottom.<br /> 
-	You can even email us through this site or call. <br />We will get back to you! Ask away, we love questions.</td>
-	</tr>
-	</table>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">Our Work</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; 2015 to Current. I.T.Devz, All Rights Reserved.<br />
+                    WE ARE CODE NINJAS! ELITE & MODERN!</p>
+                </div>
+            </div>
         </div>
-
-  
-      	</div>
-    	</div>
-    	<!-- end container -->
-    	
-	<div align="center"><h3>helpme@itdevz.com<br />(877) 669 - 9006<br /></h3></div>
-
-
-	</div>
-	</div>
-	<br />
-	
-	
-	
-	
-	<!-- this is the email message form -->
-	<!-- start 2nd containter -->
-	<div class="container">
-      	<div class="jumbotron">
-	
-	
-	<div class="table-responsive">
-	<table style="width:100%" align="center">
-	
-	<form action="contact.php" method="post">
- 	<tr>
-	<td><h3>E-Mail US!<br /><br /></h3></td>
-	<td></td>
- 	</tr>
- 	
- 	<tr>
-  	<td><!-- this 1st td is the email form -->
-  	<div class="form-group">
-    	<b>Name&nbsp;:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    	&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cf_name">
-    	</td>
-    	
-    	<td><div class="form-group">
-    	<b>E-Mail Address&nbsp;:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    	&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cf_email">
-  	</div></td>
-    	</tr>
-    	</table>
-    	
-    	
-    	<table style="width:100%" align="center">
-    	<tr>
-    	<td><div class="form-group">
-    	<b>Message :</b><br /><br />
-    	<textarea name="cf_message" cols="123" rows="6"></textarea>
-  	</div></td>
-  	</tr>
-    	
-    	<br />
-  	
-  	<tr>
-  	<td>
-  	<button type="submit" class="btn btn-default">Submit</button>
-  	<button type="reset" class="btn btn-default">Clear</button>
-    	</td>
-    	</tr>
-    	
-    	
-    	</form>
-    	</table>
-    	
-    	
-    	
-  	</div><br />
-  	
-
-	<span>
-	<a class="backtotop" href="#"><h2 style="color: #9dcedf; font-weight: bold; text-align: center;">^</h2></a>
-	</span>
-	</div>
-	
-	
-	</div>
-	</div>
-	</div>
-	<br />
-	<!-- end container -->
+    </footer>
+    <!-- FOOTER -->
 
 
 
@@ -209,56 +521,5 @@
 
 
 
-	<!-- start 3rd containter -->
-
-
-
-      	<!-- Main component for a primary marketing message or call to action -->
-
-      
-      	<div class="table-responsive">
-      	<table style="width:100%">
-      	<tr bgcolor="#222222" align="center">
-        <TD><br /><br /><br /><br /></TD>
-        <TD><br /><br /><br /><br /></TD>
-        <TD><br /><br /><br /><br /></TD>
-        </TR>
-      	<tr bgcolor="#222222" align="center">
-      	<td><h5 style="color: #9dcedf; font-weight: bold">Our LinkedIn</h5></td>
-      	<td><h5 style="color: #9dcedf; font-weight: bold">Facebook US</h5></td>
-      	<td><h5 style="color: #9dcedf; font-weight: bold">Twitter</h5></td>
-       </tr>
-       <tr bgcolor="#222222" align="center">
-       
-      	
-      	<!-- add the linkedin -->
-      	<td><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-	<script type="IN/CompanyProfile" data-id="3024621" data-format="inline"></script><br /><br /></td>
-      	
-      	<!-- add the facebook -->
-      	<td><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fit.ryanjbcom&amp;width=250&amp;height=255&amp;colorscheme=dark&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:255px;" allowTransparency="true"></iframe><br /><br /></td>
-      	
-      	<!-- add the twitter -->
-      	<td><a class="twitter-timeline" href="https://twitter.com/ITConsultantsIT" data-widget-id="573322731711807488">Tweets by @ITConsultantsIT</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><br /><br /></td>
-       </tr>
-      	<tr bgcolor="#000000">
-      	<td><br /><h6>2011 to Current <a href="http://www.itdevz.com" target="_blank">I.T. Devz, we are I,T, Consultants</a>, <a href="http://www.ryanjb.com" target="_blank">RyanJB.com G&amp;E</a></h6><br /><br /></td>
-      	<td></td>
-      	<td></td>
-      	</tr>
-      </table>
-      </div> <!-- responsive table code -->
-
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-
-     <script src="http://www.itdevz.com/js/bootstrap.min.js"></script>
-
-  
-
-</body></html>
+</body>
+</html>
