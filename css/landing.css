@@ -107,6 +107,8 @@ h6 {
     border-top: 3px solid #e7e7e7;
 }
 
+
+/*  BANNER CODE ------------------------------ */
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
@@ -124,6 +126,9 @@ h6 {
     margin-bottom: 0;
 }
 
+
+
+/*  BANNER 2 CODE ------------------------------ */
 .banner2 {
     padding: 100px 0;
     color: #f8f8f8;
@@ -142,6 +147,8 @@ h6 {
 }
 
 
+
+/*  BANNER 3 CODE ------------------------------ */
 .banner3 {
     padding: 100px 0;
     color: #f8f8f8;
@@ -161,6 +168,8 @@ h6 {
 }
 
 
+
+/*  BANNER 4 CODE ------------------------------ */
 .banner4 {
     padding: 100px 0;
     color: #f8f8f8;
@@ -219,6 +228,8 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+
 
 
 /*  Google maps */
