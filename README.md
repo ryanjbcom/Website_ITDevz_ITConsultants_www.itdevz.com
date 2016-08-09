@@ -1,2 +1,12 @@
-# Website_ITDevz_ITConsultants_www.itdevz.com
-ryanjbcom, Html5, php, css, php, js, code for itdevz.com, built under www.itdevz.com
+# website_singlepage_itdevelopersnv.com
+This is a Single Page Design
+Mobile,
+Responsive
+Cross Browser
+
+
+Html5, php, css3, php, js, 
+
+view it live at:
+
+www.itdevelopersnv.com/clients/itd1
